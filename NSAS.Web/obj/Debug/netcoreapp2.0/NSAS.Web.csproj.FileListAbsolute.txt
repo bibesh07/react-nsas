@@ -1,0 +1,14 @@
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Web.deps.json
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Web.runtimeconfig.json
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Web.runtimeconfig.dev.json
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Web.dll
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Web.pdb
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Core.dll
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\bin\Debug\netcoreapp2.0\NSAS.Core.pdb
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.csprojAssemblyReference.cache
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.csproj.CoreCompileInputs.cache
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.AssemblyInfoInputs.cache
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.AssemblyInfo.cs
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.csproj.CopyComplete
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.dll
+C:\Users\personal\Desktop\react-nsas\NSAS.Web\obj\Debug\netcoreapp2.0\NSAS.Web.pdb

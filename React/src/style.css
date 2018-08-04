@@ -1,0 +1,90 @@
+@import '../node_modules/antd/dist/antd.css';
+
+h1, p, h4, h3, h2 {
+  font-family: 'Kaushan Script', cursive !important;
+}
+
+.first-half{
+  font-family: 'Kaushan Script', cursive;
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  min-height: 670px;
+  color:white;
+}
+
+.carousel-indicators {left: 103px !important}
+
+.nsas-detail { 
+  background: #006633 !important;
+  color:gold;
+  font-size: 22px !important;
+
+}
+
+.abs {
+  position: fixed !important;
+  min-height: 1000px !important;
+  background: white !important;
+  z-index: 100 !important;
+  top: 0 !important;
+  /*left: 100%;*/
+  overflow-y: auto !important;
+  left: auto !important;
+  right:0 !important;
+}
+
+#nsas-detail-h2 {color: white; font-size: 25px;}
+
+.heading {
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+}
+
+.carousel-image { width: 100% !important}
+
+#nepal-flag {
+  height: 50px;
+}
+.page-footer {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.footer-copyright {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 490px;
+  line-height: 10px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.carousel-image {
+  width: 100%;
+}
+
+.fourth-half {
+  background: linear-gradient(to right, #e52d27, #b31217);
+}
+
+@media (max-width: 800px) {
+  .ant-card-hoverable {
+    width: auto !important;
+  }
+
+  .carousel-indicators {
+        left: 21px !important;
+  }
+  .first-half{
+  min-height: 470px;
+  }
+}
+
+.slick-next { right: 25px !important; background: black}
+
+.slick-next :hover { background: crimson !important}

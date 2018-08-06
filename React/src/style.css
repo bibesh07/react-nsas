@@ -1,45 +1,51 @@
 @import '../node_modules/antd/dist/antd.css';
-
 h1, p, h4, h3, h2 {
   font-family: 'Kaushan Script', cursive !important;
 }
 
-.first-half{
-  font-family: 'Kaushan Script', cursive !important;
-  background: linear-gradient(to right, #b92b27, #1565c0) !important;
-  min-height: 670px !important;
-  color:white !important;
+#first-half{
+  font-family: 'Kaushan Script', cursive;
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  min-height: 670px;
+  color:white ;
 }
 
-.carousel-indicators {left: 103px !important}
-
-.nsas-detail { 
-  background: #006633 !important;
-  color:gold !important;
-  font-size: 22px !important;
-
+#nsas-detail {
+  background: #006633;
+  color:gold;
+  font-size: 22px;
 }
 
-.abs {
-  position: fixed !important;
-  min-height: 1000px !important;
-  background: white !important;
-  z-index: 100 !important;
-  top: 0 !important;
+#abs {
+  position: fixed;
+  min-height: 1000px;
+  background: white;
+  z-index: 100;
+  top: 0;
   /*left: 100%;*/
-  overflow-y: auto !important;
-  left: auto !important;
-  right:0 !important;
+  overflow-y: auto;
+  left: auto;
+  right:0;
 }
 
-#nsas-detail-h2 {color: white; font-size: 25px;}
+#nsas-detail-h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
 
 .heading {
     font-weight: bold;
     font-size: -webkit-xxx-large;
 }
 
-.carousel-image { width: 100% !important}
+.item .carousel-image {
+    width: 100%
+}
+
+.carousel-indicators {
+    left:91px !important;
+}
 
 #nepal-flag {
   height: 50px;
@@ -73,9 +79,9 @@ h1, p, h4, h3, h2 {
 }
 
 @media (max-width: 800px) {
-  .ant-card-hoverable {
-    width: auto !important;
-  }
+    .EventsCarousel .ant-card-hoverable {
+        width: auto;
+    }
 
   .carousel-indicators {
         left: 21px !important;
@@ -85,13 +91,13 @@ h1, p, h4, h3, h2 {
   }
 }
 
-.slick-next {
-  right: 25px !important;
-  background: #dc3545 !important;
-  border-radius: 25px !important;}
-
-.slick-next :hover { background: crimson !important}
-
-.slick-dots {
-  top: 95% !important;
+.EventsCarousel .slick-next {
+    background: black ;
+    border-radius: 25px;
+    right: 25px;
 }
+
+.EventsCarousel .slick-next:hover, .EventsCarousel .slick-next:focus{
+    background: black ;
+}
+

@@ -1,9 +1,45 @@
 import React, { Component } from 'react';
 import { EventsCarousel } from './EventsCarousel.js';
+import { PastEventsCarousel } from './PastEventsCarousel.js';
 import { Image, Carousel } from 'react-bootstrap';
 import { PanelMembers } from './PanelMembers.js';
 import { Route, Link} from 'react-router-dom';
 import { PhotosSideSheet } from './PhotosSideSheet.js';
+
+const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    initialSlide: 0,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+};
 
 const NepalFlag = () => (
   <Image id="nepal-flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Nepal_%28with_spacing%2C_aspect_ratio_4-3%29.svg/220px-Flag_of_Nepal_%28with_spacing%2C_aspect_ratio_4-3%29.svg.png" />
@@ -18,10 +54,13 @@ const NepalFlag = () => (
 }(document, 'script', 'facebook-jssdk'));
 
 export class Index extends Component {
+    constructor(props) {
+        super(props);
+    }
   render() {
     return (
       <div className="animated fadeIn">
-        <div className="first-half text-center">
+        <div className=" text-center" id="first-half">
           <h1 className="animated lightSpeedIn heading">
             <p className="animated nepal-text"> <NepalFlag /> <strong> Nepalese </strong>&nbsp;&nbsp;&nbsp;
             <NepalFlag /></p>
@@ -62,7 +101,7 @@ export class Index extends Component {
         <div className="second-half container">
           <div className="row">
             <div className="col-sm-8">
-              <div className="card nsas-detail">
+              <div className="card" id="nsas-detail">
                 <div className="card-header text-center"><h2 id="nsas-detail-h2">Who we are?</h2></div>
                 <div className="card-body">
                   <p className="card-text ">
@@ -90,13 +129,19 @@ export class Index extends Component {
         <br />
         <PanelMembers />
         <br />
-
         <div className="third-half">
           <h3 className="text-center"> Upcoming Events </h3>
           <hr />
           <div className="container-fluid">
-            <EventsCarousel />
+            <EventsCarousel settings={settings}/>
           </div>
+            <br/><br/>
+            <hr/>
+            <h3 className="text-center"> Previous Events </h3>
+            <hr />
+            <div className="container-fluid">
+                <PastEventsCarousel settings={settings}/>
+            </div>
         </div>
         <br />
       </div>

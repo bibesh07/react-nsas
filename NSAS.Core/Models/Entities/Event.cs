@@ -8,6 +8,8 @@ namespace NSAS.Core.Models.Entities
     {
         public int ID { get; set; }
 
+        public string ImageName { get; set; }
+
         public string EventName { get; set; }
 
         public string Location { get; set; }

@@ -37,7 +37,7 @@ export class PhotosSideSheet extends Component {
 
   render() {
     return(
-      <div className="animated fadeInRight abs col-md-12">
+      <div className="animated fadeInRight col-md-12" id="abs">
         <Link to="/" className="btn btn-danger btn-lg"> <Icon type="arrow-left" /> Go Back </Link>
         <h1 className="text-center"> Welcome to Photo Gallery </h1>
         <hr/>

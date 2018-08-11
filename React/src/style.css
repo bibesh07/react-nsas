@@ -1,55 +1,76 @@
 @import '../node_modules/antd/dist/antd.css';
-h1, p, h4, h3, h2 {
-  font-family: 'Kaushan Script', cursive !important;
+
+#nepal-flag {
+    height:60px;
+}
+.group-btn {
+    color: #fff;
+    height: 38px;
 }
 
-#first-half{
-  font-family: 'Kaushan Script', cursive;
-  background: linear-gradient(to right, #b92b27, #1565c0);
-  min-height: 670px;
-  color:white ;
+#featuredCarouselStyle {
+    min-height: 410px;
+    max-height: 430px;
+}
+
+.btn-purple {
+    background: #800080;
+    color: white !important;
+}
+
+.btn-blue {
+    background: #27ccc0;
+    color: white !important;
+}
+
+.btn-holi {
+    background: #E94B3C;
+    color: white !important;
+}
+
+.btn-primary {
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: #28a745 !important;
+}
+
+.btn-outline-info {
+    color: #17a2b8 !important;
+}
+
+.btn-outline-success:hover, .btn-outline-info:hover {
+    color: white !important;
+}
+
+ h1 {
+    font-family: 'Kaushan Script', cursive !important;
+    font-size: 53px;
+ }
+
+ #southeasternLogo {
+     width: inherit;
+     margin-top: 8px;
+ }
+
+.carousel-item > img {
+    width: 100%;
+}
+
+#nsasName {
+    min-height: 380px;
 }
 
 #nsas-detail {
   background: #006633;
   color:gold;
-  font-size: 22px;
-}
-
-#abs {
-  position: fixed;
-  min-height: 1000px;
-  background: white;
-  z-index: 100;
-  top: 0;
-  /*left: 100%;*/
-  overflow-y: auto;
-  left: auto;
-  right:0;
 }
 
 #nsas-detail-h2 {
     color: white;
-    font-size: 25px;
-    font-family: 'Kaushan Script', cursive;
 }
 
-.heading {
-    font-weight: bold;
-    font-size: -webkit-xxx-large;
-}
-
-.item .carousel-image {
-    width: 100%
-}
-
-.carousel-indicators {
-    left:91px !important;
-}
-
-#nepal-flag {
-  height: 50px;
-}
 .page-footer {
   background: linear-gradient(to right, #ff416c, #ff4b2b);
 }
@@ -70,25 +91,8 @@ h1, p, h4, h3, h2 {
   color: #fff;
 }
 
-.carousel-image {
-  width: 100%;
-}
-
 .fourth-half {
   background: linear-gradient(to right, #e52d27, #b31217);
-}
-
-@media (max-width: 800px) {
-    .EventsCarousel .ant-card-hoverable {
-        width: auto;
-    }
-
-  .carousel-indicators {
-        left: 21px !important;
-  }
-  .first-half{
-  min-height: 470px !important;
-  }
 }
 
 .EventsCarousel .slick-next {
@@ -101,3 +105,17 @@ h1, p, h4, h3, h2 {
     background: black ;
 }
 
+
+@media (max-width: 800px) {
+    .EventsCarousel .ant-card-hoverable {
+        width: auto !important;
+    }
+
+    #detail {
+        margin-bottom: 25px;
+    }
+
+    #featuredCarouselStyle {
+        min-height: 233px;
+    }
+}
